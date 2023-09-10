@@ -1,0 +1,99 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color: hsla(0,0%,100%,.9);
+}
+
+i{
+    color: red;
+}
+
+.leftContainer{
+    background-color: #373c3f;
+    height: 100vh;
+}
+
+.rightContainer{
+    background-color: #2f3437;
+    height: 100vh;
+}
+
+.projects{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sf-bold sans-serif;
+    padding-bottom: 15px;
+    border-bottom: solid hsla(0,0%,100%,.9);
+    margin: 100px 40px 20px 60px;
+}
+
+.project{
+    margin-left: 60px;
+    font-size: 24px;
+    background-color: #444a4d;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+}
+
+.addProject{
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: sf-medium sans-serif;
+    margin-top: 30px;
+}
+
+.header{
+    margin-top: 9vh;
+    display: grid;
+    grid-template-columns: 15fr 1fr;
+    border-bottom: solid hsla(0,0%,100%,.9);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.head{
+    font-size: 40px;
+    font-family: sf-bold sans-serif;
+    font-weight: bold;
+}
+
+
+.task{
+    font-size: 30px;
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid hsla(0,0%,100%,.4);
+    display: grid;
+    grid-template-columns: 1fr 15fr 0.1fr;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.addTask{
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.checkbox{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid hsla(0,0%,100%,.4);
+    cursor: pointer;
+}
+
+.checked {
+    background-color: #7af76e;
+    background-image: url("icons8-tick.svg");
+    background-position: 50% 50%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
