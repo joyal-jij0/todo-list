@@ -5,6 +5,7 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
+        checked: './src/checked.js'
     },
     devtool: 'inline-source-map',
     output: {
