@@ -1,6 +1,5 @@
 import './style.css';
-import checkedModule from './checked.js';
-// import unchecked from "./unchecked"
+import task from './task.js';
 
-checkedModule();
-// unchecked();
+const addTask = document.querySelector(".addTask");
+addTask.addEventListener('click', task);

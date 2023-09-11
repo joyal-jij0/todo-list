@@ -6,6 +6,7 @@
 
 i{
     color: red;
+    cursor: pointer;
 }
 
 .leftContainer{
@@ -42,6 +43,7 @@ i{
     font-size: 20px;
     font-family: sf-medium sans-serif;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .header{
@@ -51,14 +53,10 @@ i{
     border-bottom: solid hsla(0,0%,100%,.9);
     margin-left: 50px;
     margin-right: 50px;
-}
-
-.head{
     font-size: 40px;
     font-family: sf-bold sans-serif;
     font-weight: bold;
 }
-
 
 .task{
     font-size: 30px;
@@ -67,9 +65,7 @@ i{
     border-radius: 5px;
     border: 1px solid hsla(0,0%,100%,.4);
     display: grid;
-    grid-template-columns: 1fr 15fr 0.1fr;
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
+    grid-template-columns: 1fr 15fr 15fr 0.1fr;
     margin-right: 50px;
     margin-left: 30px;
 }
@@ -80,6 +76,7 @@ i{
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .checkbox{
@@ -96,4 +93,84 @@ i{
     background-position: 50% 50%;
     background-size: 15px;
     background-repeat: no-repeat;
+}
+
+.addToDo{
+    font-size: 30px;
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid hsla(0,0%,100%,.4);
+    margin-right: 50px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+#textInput{
+    background-color: #444a4d;
+    border: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#dateInput{
+    background-color: #444a4d;
+    border: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 280px;
+}
+
+#submit{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    background-color: #00cd00;
+    border: #00cd00;
+    margin-left: 10px;
+}
+
+#cancel{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    background-color: red;
+    border: red;
+    margin-left: 12px;
+}
+
+.task-tem{
+    font-size: 30px;
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid hsla(0,0%,100%,.4);
+    display: grid;
+    grid-template-columns: 1fr 15fr 0.1fr;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.name{
+    margin-left: 10px;
 }

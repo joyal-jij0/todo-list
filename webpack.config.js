@@ -5,7 +5,10 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
-        checked: './src/checked.js'
+        checked: './src/checked.js',
+        delete: './src/delete.js',
+        task: './src/task.js',
+        addTask: './src/addTask.js'
     },
     devtool: 'inline-source-map',
     output: {
